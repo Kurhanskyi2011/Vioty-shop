@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Roboto:wght@400;500&family=Hind+Madurai:wght@400;500;700&display=swap')
-
-:root {
+:root{
   --font-family: "Manrope", sans-serif;
   --second-family: "Montserrat", sans-serif;
   --third-family: "ST-Nizhegorodsky", sans-serif;
@@ -28,119 +26,302 @@ button{
     cursor: pointer;
 }
 .page-wrapper {
-    scroll-behavior: smooth;
     background-color: #000;
-    width: 1440px;
+    width: 100%;
     color: #fff;
+    margin: 0 auto;
 }
 .nav-wrapper {
-    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 .nav-container {
+    width: 100%;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+    padding: 53.5px 95px;
 }
 .logo {
+    display: flex;
+    align-items: center;
 }
+
 .nav {
 }
 .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 95px;
 }
 .nav-list-item {
 }
 .nav-list-item-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
 }
 .social-list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 .social-list-item {
 }
 .social-list-item-link {
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 .social-list-item-logo {
 }
 .banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 96px;
+    max-width: 683px;
 }
 .banner-enter {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #fff;
 }
 .banner-title {
+    font-family: var(--font7);
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 1;
+    letter-spacing: -1.12px;
+    color: rgba(255, 255, 255, 0.9);
 }
 .banner-accent {
+    color: #d23166;
 }
 .banner-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.6);
 }
 .banner-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 49px;
+    background-color: #d23166;
+    border-radius: 5px;
+    font-family: var(--font3);
+    font-weight: 700;
+    font-size: 16px;
+    color: #fafafa;
 }
 .banner-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner-media-img {
+    width: 588px;
+    height: 588px;
 }
 .intro-wrapper {
+    padding: 60px 96px;
 }
 .intro-container {
+    max-width: 1248px;
+    height: 285;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .intro-text {
+font-family: var(--font7);
+font-weight: 400;
+font-size: 57px;
+line-height: 100%;
+letter-spacing: -0.07em;
+text-align: center;
+color: #fff;
+    color: rgba(255, 255, 255, 0.9);
 }
 .intro-accent {
+    color: rgba(255, 255, 255, 0.2);
 }
 .products-wrapper {
+    padding: 60px 96px;
 }
 .products-container {
+    max-width: 1248px;
 }
 .products-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
 }
 .products-title {
+    font-family: var(--font4);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.07em;
+    color: rgba(255, 255, 255, 0.9);
 }
 .products-nav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
 }
 .products-list {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
 }
 .product-card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 297px;
 }
 .product-image {
-    width: 297;
+    width: 297px;
     height: 274px;
     border-radius: 20px;
 }
 .product-title {
+    background: #151515;
+    border-radius: 20px 20px 0 0;
+    margin-top: -24px;
+    padding: 48px 30px 0;
+    font-family: var(--font3);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: normal;
+    color: #fff;
 }
 .product-desc {
+    background: #151515;
+    padding: 18px 30px 0;
+    font-family: var(--font4);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
 }
 .product-purchase {
+    background: #151515;
+    border-radius: 0 0 20px 20px;
+    padding: 16px 30px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+box-shadow: inset 4px 3px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.product-prices{
+    display: flex;
+    gap: 5px;
 }
 .product-price {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
 }
 .product-price-old {
+    font-family: var(--font3);
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: line-through;
+    margin-left: 5px;
 }
 .product-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 49px;
+    background-color: #d23166;
+    border-radius: 5px;
+    font-family: var(--font4);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fafafa;
 }
 .order-wrapper {
+    padding: 60px 96px;
 }
 .order-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    max-width: 1248px;
 }
 .order-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 466px;
 }
 .order-title {
+    font-family: var(--font4);
+    font-weight: 500;
+    font-size: 56px;
+    color: rgba(255, 255, 255, 0.9);
 }
 .order-accent {
+    color: #d23166;
 }
 .order-text {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.6)
 }
 .order-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .order-step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 .step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #888;
+    border-radius: 100px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
 }
 .step-text {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.6);
 }
 .order-media {
 }
 .order-image {
+    width: 100%;
+    max-width: 782px;
 }
 .footer-wrapper {
 }
