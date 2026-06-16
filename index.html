@@ -12,22 +12,22 @@
       <div class="nav-wrapper">
         <div class="nav-container">
           <p class="logo">
-            <img src="./MainLogo.png" alt="" class="logo" />
+            <img src="./MainLogo.png" alt="" class="logo" id="Main" />
           </p>
 
           <nav class="nav">
             <ul class="nav-list">
               <li class="nav-list-item">
-                <a href="#" class="nav-list-item-link">Main</a>
+                <a href="#Main" class="nav-list-item-link">Main</a>
               </li>
               <li class="nav-list-item">
-                <a href="#about" class="nav-list-item-link">About Us</a>
+                <a href="#AboutUs" class="nav-list-item-link">About Us</a>
               </li>
               <li class="nav-list-item">
-                <a href="#products" class="nav-list-item-link">Trainers</a>
+                <a href="#Trainers" class="nav-list-item-link">Trainers</a>
               </li>
               <li class="nav-list-item">
-                <a href="#" class="nav-list-item-link">App</a>
+                <a href="#Ourapp" class="nav-list-item-link">App</a>
               </li>
             </ul>
           </nav>
@@ -76,14 +76,16 @@
           <span class="banner-enter">Sweet fun, full of milk.</span>
 
           <h1 class="banner-title">
-            Feel inside cold with our delicious
+            Feel inside cold with<br />
+            our delicious
             <span class="banner-accent">ice-cream</span>
           </h1>
 
           <p class="banner-text">
             Some food has looked so awful that it's looked like something that
-            the dog's brought home, yet after one mouthful I've been left eating
-            my thoughts, my words.
+            the dog's<br />
+            brought home, yet after one mouthful I've been left eating my<br />
+            thoughts, my words.
           </p>
 
           <button class="banner-button">Buy Now</button>
@@ -100,7 +102,7 @@
 
       <div class="intro-wrapper">
         <div class="intro-container">
-          <p class="intro-text">
+          <p class="intro-text" id="AboutUs">
             Porem ipsum dolor sit amet, consectetur<br />
             adipiscing elit.<span class="intro-accent">
               Nunc vulputate libero et velit<br />
@@ -117,7 +119,7 @@
       <div class="products-wrapper">
         <div class="products-container">
           <div class="products-header">
-            <h2 class="products-title">Our Product</h2>
+            <h2 class="products-title" id="Trainers">Our Product</h2>
 
             <div class="products-nav"></div>
           </div>
@@ -136,7 +138,7 @@
                   <span class="product-price">$19.55</span>
                   <span class="product-price-old">$22.55</span>
                 </div>
-                <a href="#" class="product-button">Buy Now</a>
+                <a href="" class="product-button">Buy Now</a>
               </div>
             </li>
 
@@ -153,7 +155,7 @@
                   <span class="product-price">$19.55</span>
                   <span class="product-price-old">$22.55</span>
                 </div>
-                <a href="#" class="product-button">Buy Now</a>
+                <a href="" class="product-button">Buy Now</a>
               </div>
             </li>
 
@@ -170,7 +172,7 @@
                   <span class="product-price">$19.55</span>
                   <span class="product-price-old">$22.55</span>
                 </div>
-                <a href="#" class="product-button">Buy Now</a>
+                <a href="" class="product-button">Buy Now</a>
               </div>
             </li>
 
@@ -187,7 +189,7 @@
                   <span class="product-price">$19.55</span>
                   <span class="product-price-old">$22.55</span>
                 </div>
-                <a href="#" class="product-button">Buy Now</a>
+                <a href="" class="product-button">Buy Now</a>
               </div>
             </li>
           </ul>
@@ -197,7 +199,7 @@
       <div class="order-wrapper" id="order">
         <div class="order-container">
           <div class="order-content">
-            <h2 class="order-title">
+            <h2 class="order-title" id="Ourapp">
               Simple way <span class="order-accent">to order</span> your food
             </h2>
             <p class="order-text">
@@ -262,53 +264,58 @@
                   that the dog's brought home.
                 </p>
               </li>
-              <li class="foter-list-item">
-                <a
-                  href="https://www.linkedin.com/"
-                  class="footer-info-item-logo"
-                >
-                  <img
-                    src="./Linkedin logo.png"
-                    alt=""
-                    class="social-list-item-logo"
-                  />
-                </a>
-              </li>
-              <li class="footer-list-item">
-                <a href="http://facebook.com/" class="footer-info-item-logo">
-                  <img
-                    src="./facebook logo.png"
-                    alt=""
-                    class="social-list-item-logo"
-                  />
-                </a>
-              </li>
-              <li class="sfooter-list-item">
-                <a href="https://www.tiktok.com/" class="footer-info-item-logo">
-                  <img
-                    src="./tiktok logo.png"
-                    alt=""
-                    class="social-list-item-logo"
-                  />
-                </a>
-              </li>
-              <li class="footer-list-item">
-                <a
-                  href="https://www.youtube.com/"
-                  class="footer-info-item-logo"
-                >
-                  <img
-                    src="./Youtube logo.png"
-                    alt=""
-                    class="social-list-item-logo"
-                  />
-                </a>
-              </li>
+              <div class="footer-list-items">
+                <li class="foter-list-item">
+                  <a
+                    href="https://www.linkedin.com/"
+                    class="footer-info-item-logo"
+                  >
+                    <img
+                      src="./Linkedin logo.png"
+                      alt=""
+                      class="social-list-item-logo"
+                    />
+                  </a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="http://facebook.com/" class="footer-info-item-logo">
+                    <img
+                      src="./facebook logo.png"
+                      alt=""
+                      class="social-list-item-logo"
+                    />
+                  </a>
+                </li>
+                <li class="sfooter-list-item">
+                  <a
+                    href="https://www.tiktok.com/"
+                    class="footer-info-item-logo"
+                  >
+                    <img
+                      src="./tiktok logo.png"
+                      alt=""
+                      class="social-list-item-logo"
+                    />
+                  </a>
+                </li>
+                <li class="footer-list-item">
+                  <a
+                    href="https://www.youtube.com/"
+                    class="footer-info-item-logo"
+                  >
+                    <img
+                      src="./Youtube logo.png"
+                      alt=""
+                      class="social-list-item-logo"
+                    />
+                  </a>
+                </li>
+              </div>
             </ul>
           </div>
 
           <div class="footer-info">
-            <h3 class="footer-info-title">Menu</h3>
+            <h3 class="footer-info-title">MENU</h3>
             <ul class="footer-list">
               <li class="footer-list-item">
                 <a href="#" class="footer-link">Main</a>
@@ -325,7 +332,7 @@
             </ul>
           </div>
           <div class="footer-info">
-            <h3 class="footer-info-title">Contacts</h3>
+            <h3 class="footer-info-title">CONTACTS</h3>
             <ul class="footer-list">
               <li class="footer-list-item">831.466.3000</li>
               <li class="footer-list-item">info@basketball.com</li>
@@ -333,7 +340,7 @@
           </div>
 
           <div class="footer-info">
-            <h3 class="footer-info-title">Location</h3>
+            <h3 class="footer-info-title">LOCATION</h3>
             <ul class="footer-list">
               <li class="footer-list-item">1347 Pacific Avenue, Suite 201</li>
               <li class="footer-list-item">Santa Cruz, CA, 95060</li>
